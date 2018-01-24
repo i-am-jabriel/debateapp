@@ -1,0 +1,34 @@
+{
+  "name": "DebateApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "pg": "^7.4.1",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "sequelize": "^4.32.1",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-am-jabriel/debateapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-am-jabriel/debateapp/issues"
+  },
+  "homepage": "https://github.com/i-am-jabriel/debateapp#readme"
+}
