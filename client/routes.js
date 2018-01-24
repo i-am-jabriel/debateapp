@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Route, Switch, Router } from 'react-router-dom'
-//import { Main, Login, Signup, UserProfile } from './components'
+import { Main } from './components'
 
 /**
  * COMPONENT
@@ -13,9 +13,10 @@ class Routes extends Component {
 
   render() {
     const { isLoggedIn } = this.props
+    console.log("routes");
 
     return (
-      <Router history={history}>
+      <Router>
         <Main>
           <Switch>
             {/* Routes placed here are available to all visitors
