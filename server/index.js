@@ -65,6 +65,6 @@ function resolveURL(url) {
     if (!isWin) return url;
     return url.replace(/\//g, '\\');
 }
-server.listen(443);
+server.listen(process.env.PORT || 8080 ||443);
 
 module.exports = app;
